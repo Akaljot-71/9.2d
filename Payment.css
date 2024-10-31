@@ -1,0 +1,39 @@
+/* Payment.css */
+.payment-page {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+  }
+  
+  .payment-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #34495e;
+  }
+  
+  .payment-page .StripeElement {
+    width: 95%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-page .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-page .button:hover {
+    background-color: #2980b9;
+  }
+  
